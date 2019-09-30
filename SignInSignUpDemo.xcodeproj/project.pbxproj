@@ -3,25 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		52C3B1512341A35F0048C634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3B1502341A35F0048C634 /* AppDelegate.swift */; };
-		52C3B1532341A35F0048C634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3B1522341A35F0048C634 /* ViewController.swift */; };
 		52C3B1562341A35F0048C634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C3B1542341A35F0048C634 /* Main.storyboard */; };
 		52C3B1582341A3610048C634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C3B1572341A3610048C634 /* Assets.xcassets */; };
 		52C3B15B2341A3610048C634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C3B1592341A3610048C634 /* LaunchScreen.storyboard */; };
+		52F4701E2341FDB50056EEE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52F4701D2341FDB50056EEE8 /* GoogleService-Info.plist */; };
+		52F470202341FED30056EEE8 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4701F2341FED30056EEE8 /* signUpViewController.swift */; };
+		52F4702223420C1A0056EEE8 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4702123420C1A0056EEE8 /* loginViewController.swift */; };
+		52F4702423420E440056EEE8 /* resetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4702323420E440056EEE8 /* resetPasswordViewController.swift */; };
+		52F47026234211450056EEE8 /* loginSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F47025234211450056EEE8 /* loginSuccessViewController.swift */; };
+		65FD427CFBF7CE7E1E1335BF /* Pods_SignInSignUpDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA5952DA5F5E7F348837771 /* Pods_SignInSignUpDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52C3B14D2341A35F0048C634 /* SignInSignUpDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInSignUpDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C3B1502341A35F0048C634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52C3B1522341A35F0048C634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52C3B1552341A35F0048C634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52C3B1572341A3610048C634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C3B15A2341A3610048C634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C3B15C2341A3610048C634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F4701D2341FDB50056EEE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52F4701F2341FED30056EEE8 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		52F4702123420C1A0056EEE8 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		52F4702323420E440056EEE8 /* resetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resetPasswordViewController.swift; sourceTree = "<group>"; };
+		52F47025234211450056EEE8 /* loginSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginSuccessViewController.swift; sourceTree = "<group>"; };
+		5AA5952DA5F5E7F348837771 /* Pods_SignInSignUpDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInSignUpDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA78581022566497DA541D2 /* Pods-SignInSignUpDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInSignUpDemo.release.xcconfig"; path = "Target Support Files/Pods-SignInSignUpDemo/Pods-SignInSignUpDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F6C8C5D881682CAC86215BC6 /* Pods-SignInSignUpDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInSignUpDemo.debug.xcconfig"; path = "Target Support Files/Pods-SignInSignUpDemo/Pods-SignInSignUpDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FD427CFBF7CE7E1E1335BF /* Pods_SignInSignUpDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		330F50CCB1445DACE4B643E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6C8C5D881682CAC86215BC6 /* Pods-SignInSignUpDemo.debug.xcconfig */,
+				DCA78581022566497DA541D2 /* Pods-SignInSignUpDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		52C3B1442341A35F0048C634 = {
 			isa = PBXGroup;
 			children = (
 				52C3B14F2341A35F0048C634 /* SignInSignUpDemo */,
 				52C3B14E2341A35F0048C634 /* Products */,
+				330F50CCB1445DACE4B643E9 /* Pods */,
+				7476F833E57C2C79FFACE0BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,58 @@
 		52C3B14F2341A35F0048C634 /* SignInSignUpDemo */ = {
 			isa = PBXGroup;
 			children = (
+				52C3B1652341A7390048C634 /* Storyboards */,
+				52C3B1642341A6D00048C634 /* Controller */,
+				52C3B1632341A6C70048C634 /* View */,
+				52C3B1622341A6BA0048C634 /* Model */,
 				52C3B1502341A35F0048C634 /* AppDelegate.swift */,
-				52C3B1522341A35F0048C634 /* ViewController.swift */,
-				52C3B1542341A35F0048C634 /* Main.storyboard */,
 				52C3B1572341A3610048C634 /* Assets.xcassets */,
 				52C3B1592341A3610048C634 /* LaunchScreen.storyboard */,
+				52F4701D2341FDB50056EEE8 /* GoogleService-Info.plist */,
 				52C3B15C2341A3610048C634 /* Info.plist */,
 			);
 			path = SignInSignUpDemo;
+			sourceTree = "<group>";
+		};
+		52C3B1622341A6BA0048C634 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52C3B1632341A6C70048C634 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52C3B1642341A6D00048C634 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52F4701F2341FED30056EEE8 /* signUpViewController.swift */,
+				52F4702123420C1A0056EEE8 /* loginViewController.swift */,
+				52F4702323420E440056EEE8 /* resetPasswordViewController.swift */,
+				52F47025234211450056EEE8 /* loginSuccessViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52C3B1652341A7390048C634 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				52C3B1542341A35F0048C634 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7476F833E57C2C79FFACE0BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA5952DA5F5E7F348837771 /* Pods_SignInSignUpDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52C3B15F2341A3610048C634 /* Build configuration list for PBXNativeTarget "SignInSignUpDemo" */;
 			buildPhases = (
+				D8B7D799A1770720536F6A65 /* [CP] Check Pods Manifest.lock */,
 				52C3B1492341A35F0048C634 /* Sources */,
 				52C3B14A2341A35F0048C634 /* Frameworks */,
 				52C3B14B2341A35F0048C634 /* Resources */,
+				075DDD4A6E738E3E4BC7A31D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C3B15B2341A3610048C634 /* LaunchScreen.storyboard in Resources */,
+				52F4701E2341FDB50056EEE8 /* GoogleService-Info.plist in Resources */,
 				52C3B1582341A3610048C634 /* Assets.xcassets in Resources */,
 				52C3B1562341A35F0048C634 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +201,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		075DDD4A6E738E3E4BC7A31D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignInSignUpDemo/Pods-SignInSignUpDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignInSignUpDemo/Pods-SignInSignUpDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignInSignUpDemo/Pods-SignInSignUpDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B7D799A1770720536F6A65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignInSignUpDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52C3B1492341A35F0048C634 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C3B1532341A35F0048C634 /* ViewController.swift in Sources */,
+				52F470202341FED30056EEE8 /* signUpViewController.swift in Sources */,
 				52C3B1512341A35F0048C634 /* AppDelegate.swift in Sources */,
+				52F4702223420C1A0056EEE8 /* loginViewController.swift in Sources */,
+				52F4702423420E440056EEE8 /* resetPasswordViewController.swift in Sources */,
+				52F47026234211450056EEE8 /* loginSuccessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +396,7 @@
 		};
 		52C3B1602341A3610048C634 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C8C5D881682CAC86215BC6 /* Pods-SignInSignUpDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +414,7 @@
 		};
 		52C3B1612341A3610048C634 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA78581022566497DA541D2 /* Pods-SignInSignUpDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
